@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Calculadora</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <label> Peso da Areia do Cone (g) </label>
+  <input type="text" id="input1" placeholder="Valor 1">
+
+  <label> Massa Especifica Aparente da Areia (g/cm³) </label>
+  <input type="text" id="input2" placeholder="Valor 2">
+
+  <label> Umidade Ótima (%) </label>
+  <input type="text" id="input3" placeholder="Valor 3">
+
+  <label> Massa Especifica Aparente Máxima (g/cm³) </label>
+  <input type="text" id="input4" placeholder="Valor 4">
+
+  <label> Localizaçao </label>
+  <input type="text" id="input16" placeholder="Cota ou camada">
+
+  <label> Pesso Frasco Antes (g) </label>
+  <input type="text" id="input5" placeholder="Valor 5">
+
+  <label> Pesso Frasco Depois (g) </label>
+  <input type="text" id="input6" placeholder="Valor 6">
+
+  <label> Peso Material Retirado (g) </label>
+  <input type="text" id="input7" placeholder="Valor 7">
+
+  <label> Umidade Determinada H (%) </label>
+  <input type="text" id="input8" placeholder="Valor 8">
+  
+  <button onclick="calcular()" class="calcular-btn">Calcular</button>
+
+  <label> Desvio de Umidade (%) </label>
+  <input type="text" id="input9" placeholder="Valor 9" readonly>
+
+  <label> Areia Deslocada (g) </label>
+  <input type="text" id="input10" placeholder="Valor 10" readonly>
+
+  <label> Areia na Cavidade (g) </label>
+  <input type="text" id="input11" placeholder="Valor 11" readonly>
+
+  <label> Vol. Mat. Retirado (cm³) </label>
+  <input type="text" id="input12" placeholder="Valor 12" readonly>
+
+  <label> Densidade Ap. Solo Úmido (g/cm³) </label>
+  <input type="text" id="input13" placeholder="Valor 13" readonly>
+
+  <label> Densidade Ap. Solo Seco (g/cm³) </label>
+  <input type="text" id="input14" placeholder="Valor 14" readonly>
+
+  <label> Grau de Compact. Compactação (%) </label>
+  <input type="text" id="input15" placeholder="Valor 15" readonly>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
